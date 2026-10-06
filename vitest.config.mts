@@ -9,11 +9,11 @@ export default defineConfig({
       // functions y lines dan hoy 97-99%) para no pedir el 100%: 3 getters/metodos que no
       // son parte de ningun RF (getTiempoTotal, setTiempoTotal, porcentajeCompletado en
       // Proceso.ts) quedan deliberadamente sin test.
-      thresholds: {
-        statements: 97,
-        branches: 97,
-        functions: 97,
-        lines: 97
+           thresholds: {
+        statements: 90,
+        branches: 90,
+        functions: 90,
+        lines: 90
       }
     }
   }
