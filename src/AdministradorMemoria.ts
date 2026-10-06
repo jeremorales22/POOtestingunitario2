@@ -1,7 +1,7 @@
 import { BloqueMemoria } from './BloqueMemoria';
 import { EstrategiaAsignacion } from './EstrategiaAsignacion';
-import { FirstFit } from './FirstFit';
-import { GestorMemoria } from './GestorMemoria';
+import { FirstFit } from '../FirstFit';
+import { GestorMemoria } from '../GestorMemoria';
 import { Metricas } from './Metricas';
 import { Proceso } from './Proceso';
 

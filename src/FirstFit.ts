@@ -1,5 +1,5 @@
 import { BloqueMemoria } from './BloqueMemoria';
-import { EstrategiaAsignacion } from './EstrategiaAsignacion';
+import { EstrategiaAsignacion } from './src/EstrategiaAsignacion';
 import { Proceso } from './Proceso';
 
 // RF04: el primer bloque libre, recorriendo la lista en orden de direccion, que alcanza.
