@@ -10,10 +10,10 @@ export default defineConfig({
       // son parte de ningun RF (getTiempoTotal, setTiempoTotal, porcentajeCompletado en
       // Proceso.ts) quedan deliberadamente sin test.
            thresholds: {
-        statements: 90,
-        branches: 90,
-        functions: 90,
-        lines: 90
+        statements: 97,
+        branches: 97,
+        functions: 97,
+        lines: 97
       }
     }
   }
