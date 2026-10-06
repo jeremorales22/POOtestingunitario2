@@ -1,0 +1,8 @@
+{
+  "name": "demo-so",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "demo": "npx --yes tsx main.ts"
+  }
+}
