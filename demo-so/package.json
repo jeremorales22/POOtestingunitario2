@@ -1,8 +1,21 @@
 {
-  "name": "demo-so",
+  "name": "simulador-so",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "demo": "npx --yes tsx main.ts"
+    "test": "vitest run",
+    "check": "tsc --noEmit",
+    "simular": "tsc -p demo-so/tsconfig.json && node dist-demo-so/demo-so/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@vitest/coverage-v8": "^4.1.11",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.11"
   }
 }
